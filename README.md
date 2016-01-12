@@ -73,3 +73,9 @@ Default configurations:
 $etcdClientURL = "http://127.0.0.1:4001"
 $etcdDiscoverySRV = "vtexlab.com.br"
 ```
+
+## service_announcer_task
+Sets a scheduled task to announce the service to the VTEX Router/API Gateway every 1 minute.
+
+It uses the ELB DNS name from the `get_beanstalk_load_balancer.config` extension. It also depends on a running
+etcd proxy to the API Gateway cluster.
