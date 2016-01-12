@@ -31,5 +31,13 @@ Other customizations are still possible, just modify as you want.
 ### Contributing
 Conttibutions are always welcome.
 
+## get_beanstalk_load_balancer.config
+Gets the ELB in which the EC2 instance is attached to and the EC2 instance id
+
+It will generate 2 files with those informations:
+
+- `C:\tools\BeanstalkELBDNSName.dat` contains the Load Balancer DNS
+- `C:\tools\EC2InstanceID.dat` contains the EC2 instance id
+
 ## install_chocolatey.config
 Installs [Chocolatey](https://chocolatey.org/) package manager
