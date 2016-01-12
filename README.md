@@ -30,3 +30,6 @@ Other customizations are still possible, just modify as you want.
 
 ### Contributing
 Conttibutions are always welcome.
+
+## install_chocolatey.config
+Installs [Chocolatey](https://chocolatey.org/) package manager
