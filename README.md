@@ -41,3 +41,17 @@ It will generate 2 files with those informations:
 
 ## install_chocolatey.config
 Installs [Chocolatey](https://chocolatey.org/) package manager
+
+## install_etcd.config
+Installs [etcd](https://coreos.com/etcd/)
+
+It defaults to **proxy mode**
+
+### How to configure
+The following are the default values. Modify them to customize the etcd proxy connection to your needs:
+```
+$discoverySRV = "vtexlab.com.br"
+$clientURL = "http://127.0.0.1:4001"
+```
+
+Also, you can alter the whole `$params` variable to fully customize the etcd cluster
