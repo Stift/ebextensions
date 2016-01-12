@@ -55,3 +55,12 @@ $clientURL = "http://127.0.0.1:4001"
 ```
 
 Also, you can alter the whole `$params` variable to fully customize the etcd cluster
+
+## handle_permissions.config
+Handles a directory permission for a given user
+
+Default configurations:
+```
+$directory = "C:\\tools"
+$user = "NT AUTHORITY\NETWORK SERVICE"
+```
