@@ -64,3 +64,12 @@ Default configurations:
 $directory = "C:\\tools"
 $user = "NT AUTHORITY\NETWORK SERVICE"
 ```
+
+## etcd_connector_task
+Sets a scheduled task to run every 1 minute that handles etcd proxy connection fails
+
+Default configurations:
+```
+$etcdClientURL = "http://127.0.0.1:4001"
+$etcdDiscoverySRV = "vtexlab.com.br"
+```
